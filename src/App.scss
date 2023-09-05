@@ -1,0 +1,9 @@
+.app {
+  //This is called as class base component.
+  //We have create app class and pass props .link in componrnt.
+  //eg. we have used link in navbar.jsx
+  .link {
+    color: inherit;
+    text-decoration: none;
+  }
+}
