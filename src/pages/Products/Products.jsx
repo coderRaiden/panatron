@@ -1,7 +1,8 @@
 import React from "react";
+import "./Products.scss";
 
 const Products = () => {
-  return <div>Category</div>;
+  return <div className="prodcuts">Category</div>;
 };
 
 export default Products;
