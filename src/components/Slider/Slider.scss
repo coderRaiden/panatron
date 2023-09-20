@@ -8,6 +8,9 @@
     height: 100%;
     display: flex;
     transform: translateX(-100vw);
+    // 100 multiple move to next/prev image.
+    //at 0 it shows first image so on.
+    transition: all 1s ease-in; //for next page transition.
 
     img {
       width: 100vw;
