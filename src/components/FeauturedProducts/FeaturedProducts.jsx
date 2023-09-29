@@ -17,7 +17,7 @@ const FeaturedProducts = ({ type }) => {
       id: 1,
       img: fet_coat,
       img2: fet_coat2,
-      title: "coat" L,
+      title: "coat",
       isNew: true,
       oldPrice: 19,
       price: 12,
