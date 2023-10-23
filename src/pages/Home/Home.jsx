@@ -3,6 +3,7 @@ import Slider from "../../components/Slider/Slider";
 import "./Home.scss";
 import FeaturedProducts from "../../components/FeauturedProducts/FeaturedProducts";
 import Categories from "../../components/Categories/Categories";
+import Contact from "../../components/Contact/Contact";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Categories />
       <FeaturedProducts type="Trending" />
       {/* We are using "type" prop which help to create same feature */}
+      <Contact />
     </div>
   );
 };
